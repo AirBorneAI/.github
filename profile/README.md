@@ -133,6 +133,25 @@ AirBorne-HRS implements a hardened **6-Tier Role & Attribute-Based Access Contro
 
 ---
 
+## 🚀 Flagship Systems &amp; Repositories
+
+<table>
+  <tr>
+    <td width="100%" valign="top">
+      <h3>🧠 <a href="https://github.com/AirBorne-HRS/Airborne-Antara">AirBorne-HRS/Airborne-Antara</a></h3>
+      <p><b>Adaptive Neural Thinking Architecture for Recursive Autonomy (ANTARA V8.1 // "Sentient" Edition)</b></p>
+      <p>A production-grade adaptive meta-learning framework enabling continuous self-improvement and non-destructive cognitive manifolds over standard PyTorch deep learning models.</p>
+      <p>
+        <a href="https://github.com/AirBorne-HRS/Airborne-Antara"><img src="https://img.shields.io/badge/ARCH-COG_WRAPPER-000000.svg?style=flat-square&logo=pytorch" alt="Arch" /></a>
+        <a href="https://github.com/AirBorne-HRS/Airborne-Antara"><img src="https://img.shields.io/badge/SYSTEM-SENTIENT_META_LEARNING-00FFA3.svg?style=flat-square&logoColor=080E10" alt="System" /></a>
+        <a href="https://github.com/AirBorne-HRS/Airborne-Antara"><img src="https://img.shields.io/badge/STATUS-PRODUCTION_READY-00D4FF.svg?style=flat-square&logoColor=080E10" alt="Status" /></a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 🛠️ Technology &amp; Engineering Ecosystem
 
 <div align="center">
