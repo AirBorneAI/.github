@@ -90,6 +90,23 @@ At **AirBorne**, we pioneer high-precision autonomous systems, cloud-native ente
 
 ---
 
+## 🛡️ 6-Level Enterprise Employee Access Architecture
+
+AirBorne-HRS implements a hardened **6-Tier Role & Attribute-Based Access Control (RBAC + ABAC)** model with contextual zero-trust verification:
+
+```
+[ Level 6: Root SuperAdmin & SecOps ] ──▶ Cryptographic KMS, Zero-Trust IAM Governance, Hardware FIDO2 Quorum
+[ Level 5: Executive & C-Suite / HRD ] ──▶ Full Org Telemetry, Executive Approvals, Compensation Bands
+[ Level 4: Engineering Manager / Dept Head ] ──▶ Department Budgets, Staging/Prod Deployment, Team Auditing
+[ Level 3: Team Lead / Tech Lead ] ──▶ PR Merge Approvals, Sprint Delegation, Team Leave & Review Sign-offs
+[ Level 2: Member / Full-Time Employee ] ──▶ Self-Service HRMS (Leave/Claims), Squad Repos, Standard Telemetry
+[ Level 1: Guest / Intern / Contractor ] ──▶ Ephemeral Scoped Tokens, Sandbox Repos, Zero PII / Payroll Access
+```
+
+👉 **[Read the Full Enterprise Access Control Specification (ACCESS_CONTROL.md)](./ACCESS_CONTROL.md)**
+
+---
+
 ## 🎨 Official Brand Identity &amp; Palette
 
 <div align="center">
