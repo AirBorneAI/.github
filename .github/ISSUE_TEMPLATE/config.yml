@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: 💬 Enterprise Support & Consultation
-    url: https://airbornehrs.in
-    about: Inquire about enterprise deployments and custom HRS architectures.
+  - name: 💬 Enterprise Support & Solutions
+    url: https://airborne.in
+    about: Inquire about enterprise deployments, partnerships, and AI automation.
   - name: 🛡️ Security Vulnerability Report
-    url: mailto:security@airbornehrs.in
+    url: mailto:security@airborne.in
     about: Report potential security vulnerabilities privately.

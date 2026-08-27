@@ -1,6 +1,6 @@
-# Security Policy — AirBorne HRS
+# Security Policy — AirBorne
 
-AirBorne HRS takes the security and integrity of our workforce software systems, algorithms, and data privacy with utmost priority.
+AirBorne takes the security and integrity of our autonomous software systems, algorithms, and data infrastructure with utmost priority.
 
 ## Supported Versions
 
@@ -12,9 +12,9 @@ AirBorne HRS takes the security and integrity of our workforce software systems,
 
 ## Reporting a Vulnerability
 
-If you discover a potential security vulnerability within any AirBorne HRS software, repository, or service, please report it immediately:
+If you discover a potential security vulnerability within any AirBorne software, repository, or service, please report it immediately:
 
-1. **Email**: Send detailed vulnerability reports to [security@airbornehrs.in](mailto:security@airbornehrs.in) or [talent@airbornehrs.in](mailto:talent@airbornehrs.in).
+1. **Email**: Send vulnerability reports to [security@airborne.in](mailto:security@airborne.in) or [hello@airborne.in](mailto:hello@airborne.in).
 2. **Details to Include**:
    - Description of the vulnerability and attack vector
    - Reproduction steps or proof-of-concept code

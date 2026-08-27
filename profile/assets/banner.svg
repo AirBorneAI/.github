@@ -1,146 +1,261 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 440" width="100%" height="100%">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070B14" />
-      <stop offset="50%" stop-color="#0B132B" />
-      <stop offset="100%" stop-color="#050811" />
+    <!-- Fonts Import -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,800;1,400&amp;family=Orbitron:wght@400;600;800;900&amp;display=swap');
+
+      .orbitron-title {
+        font-family: 'Orbitron', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        font-weight: 900;
+        letter-spacing: 12px;
+      }
+      .orbitron-sub {
+        font-family: 'Orbitron', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        font-weight: 600;
+        letter-spacing: 6px;
+      }
+      .montserrat-tag {
+        font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        font-weight: 600;
+        letter-spacing: 4px;
+      }
+      .montserrat-text {
+        font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        font-weight: 400;
+        letter-spacing: 1.5px;
+      }
+    </style>
+
+    <!-- Background Base Gradient -->
+    <linearGradient id="bgBase" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080E10" />
+      <stop offset="40%" stop-color="#0B1F1C" />
+      <stop offset="75%" stop-color="#0F1416" />
+      <stop offset="100%" stop-color="#05080A" />
     </linearGradient>
 
-    <!-- Accent Glows -->
-    <radialGradient id="cyanGlow" cx="20%" cy="30%" r="60%">
-      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.25" />
-      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0" />
-    </radialGradient>
-    <radialGradient id="purpleGlow" cx="80%" cy="70%" r="55%">
-      <stop offset="0%" stop-color="#7928CA" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#7928CA" stop-opacity="0" />
-    </radialGradient>
-    <radialGradient id="blueGlow" cx="50%" cy="50%" r="40%">
-      <stop offset="0%" stop-color="#0070F3" stop-opacity="0.2" />
-      <stop offset="100%" stop-color="#0070F3" stop-opacity="0" />
-    </radialGradient>
+    <!-- Brand Color Gradients -->
+    <linearGradient id="neonCyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FFA3" />
+      <stop offset="100%" stop-color="#00D4FF" />
+    </linearGradient>
 
-    <!-- Title Gradient -->
-    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="neonGlowLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FFA3" stop-opacity="0" />
+      <stop offset="30%" stop-color="#00FFA3" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#00D4FF" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#00D4FF" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="chromeWordmark" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#FFFFFF" />
-      <stop offset="35%" stop-color="#E2F1FF" />
-      <stop offset="70%" stop-color="#00F0FF" />
-      <stop offset="100%" stop-color="#7000FF" />
+      <stop offset="35%" stop-color="#E6F7F4" />
+      <stop offset="55%" stop-color="#B2D0CC" />
+      <stop offset="75%" stop-color="#E6F7F4" />
+      <stop offset="100%" stop-color="#728F8A" />
     </linearGradient>
 
-    <!-- Pill Gradient -->
-    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.2" />
-      <stop offset="100%" stop-color="#7000FF" stop-opacity="0.1" />
-    </linearGradient>
+    <radialGradient id="emeraldSpot" cx="24%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#00FFA3" stop-opacity="0.25" />
+      <stop offset="60%" stop-color="#00FFA3" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#00FFA3" stop-opacity="0" />
+    </radialGradient>
 
-    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0" />
-      <stop offset="50%" stop-color="#00F0FF" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#7000FF" stop-opacity="0" />
-    </linearGradient>
+    <radialGradient id="cyanSpot" cx="80%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.18" />
+      <stop offset="70%" stop-color="#00D4FF" stop-opacity="0.02" />
+      <stop offset="100%" stop-color="#00D4FF" stop-opacity="0" />
+    </radialGradient>
 
-    <!-- Grid Pattern -->
-    <pattern id="cyberGrid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.4" />
-      <circle cx="40" cy="40" r="1" fill="#00F0FF" fill-opacity="0.3" />
+    <!-- Circuit Pattern -->
+    <pattern id="circuitGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#00FFA3" stroke-width="0.75" stroke-opacity="0.08" />
+      <circle cx="60" cy="60" r="1.5" fill="#00D4FF" fill-opacity="0.25" />
+      <path d="M 30 0 L 30 20 L 50 40 L 50 60" fill="none" stroke="#00FFA3" stroke-width="0.6" stroke-opacity="0.06" stroke-dasharray="4,4" />
     </pattern>
 
-    <!-- Filter Effects -->
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="8" result="blur" />
+    <!-- Glow Filter -->
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="strongGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="blur1" />
+      <feGaussianBlur stdDeviation="4" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur1" />
+        <feMergeNode in="blur2" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
     </filter>
   </defs>
 
-  <!-- Base Background -->
-  <rect width="1200" height="420" fill="url(#bgGrad)" rx="16" />
-  
-  <!-- Subtle Grid Overlay -->
-  <rect width="1200" height="420" fill="url(#cyberGrid)" rx="16" />
+  <!-- Base Canvas -->
+  <rect width="1280" height="440" fill="url(#bgBase)" rx="20" />
+  <rect width="1280" height="440" fill="url(#circuitGrid)" rx="20" />
 
-  <!-- Ambient Light Spheres -->
-  <rect width="1200" height="420" fill="url(#cyanGlow)" rx="16" />
-  <rect width="1200" height="420" fill="url(#purpleGlow)" rx="16" />
-  <rect width="1200" height="420" fill="url(#blueGlow)" rx="16" />
+  <!-- Radial Glow Spheres -->
+  <rect width="1280" height="440" fill="url(#emeraldSpot)" rx="20" />
+  <rect width="1280" height="440" fill="url(#cyanSpot)" rx="20" />
 
-  <!-- Outer Border Stroke -->
-  <rect x="1" y="1" width="1198" height="418" rx="15" fill="none" stroke="#334155" stroke-width="1.2" stroke-opacity="0.6" />
+  <!-- Outer Tech Border -->
+  <rect x="1.5" y="1.5" width="1277" height="437" rx="19" fill="none" stroke="#00FFA3" stroke-width="1" stroke-opacity="0.35" />
+  <rect x="6" y="6" width="1268" height="428" rx="15" fill="none" stroke="#00D4FF" stroke-width="0.5" stroke-opacity="0.2" stroke-dasharray="8,8" />
 
-  <!-- Geometric Tech Accent Lines -->
-  <path d="M 60 40 L 1140 40" stroke="url(#lineGrad)" stroke-width="1" />
-  <path d="M 60 380 L 1140 380" stroke="url(#lineGrad)" stroke-width="1" />
+  <!-- Top / Bottom Cyber Scanlines -->
+  <path d="M 80 35 L 1200 35" stroke="url(#neonGlowLine)" stroke-width="1.5" />
+  <path d="M 80 405 L 1200 405" stroke="url(#neonGlowLine)" stroke-width="1.5" />
 
-  <!-- Corner Brackets -->
-  <path d="M 40 60 L 40 40 L 60 40" fill="none" stroke="#00F0FF" stroke-width="2" stroke-linecap="round" />
-  <path d="M 1160 60 L 1160 40 L 1140 40" fill="none" stroke="#00F0FF" stroke-width="2" stroke-linecap="round" />
-  <path d="M 40 360 L 40 380 L 60 380" fill="none" stroke="#7000FF" stroke-width="2" stroke-linecap="round" />
-  <path d="M 1160 360 L 1160 380 L 1140 380" fill="none" stroke="#7000FF" stroke-width="2" stroke-linecap="round" />
+  <!-- HUD Corner Accents -->
+  <path d="M 35 65 L 35 35 L 65 35" fill="none" stroke="#00FFA3" stroke-width="2.5" stroke-linecap="round" filter="url(#neonGlow)" />
+  <path d="M 1245 65 L 1245 35 L 1215 35" fill="none" stroke="#00D4FF" stroke-width="2.5" stroke-linecap="round" filter="url(#neonGlow)" />
+  <path d="M 35 375 L 35 405 L 65 405" fill="none" stroke="#00D4FF" stroke-width="2.5" stroke-linecap="round" filter="url(#neonGlow)" />
+  <path d="M 1245 375 L 1245 405 L 1215 405" fill="none" stroke="#00FFA3" stroke-width="2.5" stroke-linecap="round" filter="url(#neonGlow)" />
 
-  <!-- Hexagon Tech Nodes (Left Accent) -->
-  <g transform="translate(90, 160)" opacity="0.35">
-    <polygon points="30,0 60,17 60,52 30,70 0,52 0,17" fill="none" stroke="#00F0FF" stroke-width="1.5" />
-    <polygon points="80,40 110,57 110,92 80,110 50,92 50,57" fill="none" stroke="#7000FF" stroke-width="1.5" />
-    <circle cx="30" cy="35" r="3" fill="#00F0FF" />
-    <line x1="60" y1="35" x2="80" y2="75" stroke="#00F0FF" stroke-width="1" stroke-dasharray="3,3" />
-  </g>
+  <!-- ==================== LEFT: EMBLEM BADGE (CYBER PEGASUS) ==================== -->
+  <g transform="translate(190, 220)">
+    <!-- Outer Glow Circle -->
+    <circle cx="0" cy="0" r="120" fill="#0B1F1C" stroke="url(#neonCyanGrad)" stroke-width="2" filter="url(#strongGlow)" opacity="0.9" />
+    <circle cx="0" cy="0" r="108" fill="#080E10" stroke="#00FFA3" stroke-width="1" stroke-opacity="0.4" />
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#00D4FF" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="6,4" />
 
-  <!-- Constellation Tech Nodes (Right Accent) -->
-  <g transform="translate(1030, 150)" opacity="0.35">
-    <circle cx="20" cy="20" r="4" fill="#00F0FF" />
-    <circle cx="80" cy="50" r="5" fill="#7000FF" />
-    <circle cx="40" cy="90" r="3" fill="#00F0FF" />
-    <line x1="20" y1="20" x2="80" y2="50" stroke="#00F0FF" stroke-width="1" />
-    <line x1="80" y1="50" x2="40" y2="90" stroke="#7000FF" stroke-width="1" />
-    <line x1="40" y1="90" x2="20" y2="20" stroke="#334155" stroke-width="1" stroke-dasharray="2,2" />
-  </g>
+    <!-- Circuit Radial Traces around Emblem -->
+    <g stroke="#00FFA3" stroke-width="1" stroke-opacity="0.5">
+      <line x1="0" y1="-108" x2="0" y2="-128" />
+      <circle cx="0" cy="-128" r="2.5" fill="#00FFA3" />
+      <line x1="0" y1="108" x2="0" y2="128" />
+      <circle cx="0" cy="128" r="2.5" fill="#00FFA3" />
+      <line x1="-108" y1="0" x2="-128" y2="0" />
+      <circle cx="-128" cy="0" r="2.5" fill="#00FFA3" />
+      <line x1="108" y1="0" x2="128" y2="0" />
+      <circle cx="128" cy="0" r="2.5" fill="#00FFA3" />
 
-  <!-- Tag Pill -->
-  <g transform="translate(600, 95)">
-    <rect x="-190" y="-16" width="380" height="32" rx="16" fill="url(#pillGrad)" stroke="#00F0FF" stroke-width="1" stroke-opacity="0.5" />
-    <circle cx="-165" cy="0" r="4" fill="#00F0FF" filter="url(#glow)" />
-    <text x="-148" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#00F0FF" letter-spacing="3">ENTERPRISE TALENT INTELLIGENCE</text>
-  </g>
-
-  <!-- Brand Title -->
-  <text x="600" y="195" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Montserrat', 'Inter', sans-serif" font-size="64" font-weight="900" letter-spacing="6" fill="url(#titleGrad)" filter="url(#glow)">
-    AIRBORNE HRS
-  </text>
-
-  <!-- Subtitle -->
-  <text x="600" y="242" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-size="18" font-weight="400" fill="#94A3B8" letter-spacing="1.5">
-    Architecting Autonomous Systems for Next-Generation Human Capital &amp; Enterprise Scale
-  </text>
-
-  <!-- Feature Metric Pills -->
-  <g transform="translate(600, 310)">
-    <!-- Pill 1 -->
-    <g transform="translate(-360, 0)">
-      <rect x="-95" y="-18" width="190" height="36" rx="18" fill="#0B132B" stroke="#1E293B" stroke-width="1" />
-      <circle cx="-72" cy="0" r="4" fill="#00F0FF" />
-      <text x="-58" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#E2E8F0">AI Matching Engine</text>
+      <line x1="76" y1="76" x2="92" y2="92" />
+      <circle cx="92" cy="92" r="2" fill="#00D4FF" />
+      <line x1="-76" y1="76" x2="-92" y2="92" />
+      <circle cx="-92" cy="92" r="2" fill="#00D4FF" />
+      <line x1="76" y1="-76" x2="92" y2="-92" />
+      <circle cx="92" cy="-92" r="2" fill="#00D4FF" />
+      <line x1="-76" y1="-76" x2="-92" y2="-92" />
+      <circle cx="-92" cy="-92" r="2" fill="#00D4FF" />
     </g>
 
-    <!-- Pill 2 -->
-    <g transform="translate(-120, 0)">
-      <rect x="-95" y="-18" width="190" height="36" rx="18" fill="#0B132B" stroke="#1E293B" stroke-width="1" />
-      <circle cx="-72" cy="0" r="4" fill="#7000FF" />
-      <text x="-58" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#E2E8F0">HRMS Operating Core</text>
+    <!-- Circuit Board Micro Traces inside Emblem -->
+    <g stroke="#00FFA3" stroke-width="0.8" stroke-opacity="0.3" fill="none">
+      <path d="M -60 -40 L -40 -40 L -20 -60 L 20 -60" />
+      <circle cx="20" cy="-60" r="2" fill="#00FFA3" />
+      <path d="M -70 20 L -50 20 L -30 40 L -10 40" />
+      <circle cx="-10" cy="40" r="1.5" fill="#00D4FF" />
+      <path d="M 40 -30 L 60 -30 L 70 -10" />
+      <circle cx="70" cy="-10" r="1.5" fill="#00FFA3" />
+      <path d="M 30 50 L 50 50 L 65 35" />
+      <circle cx="65" cy="35" r="2" fill="#00D4FF" />
     </g>
 
-    <!-- Pill 3 -->
-    <g transform="translate(120, 0)">
-      <rect x="-95" y="-18" width="190" height="36" rx="18" fill="#0B132B" stroke="#1E293B" stroke-width="1" />
-      <circle cx="-72" cy="0" r="4" fill="#00F0FF" />
-      <text x="-58" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#E2E8F0">Workforce Analytics</text>
+    <!-- CYBER PEGASUS SILHOUETTE & WING VECTOR -->
+    <g transform="translate(-50, -52) scale(1.1)" stroke="url(#neonCyanGrad)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#neonGlow)">
+      <!-- Pegasus Wing Feathers (Ascending Flight) -->
+      <path d="M 45 42 C 35 25, 20 8, 5 2 C 15 15, 28 28, 40 45" stroke="#00FFA3" stroke-width="2.5" fill="#00FFA3" fill-opacity="0.1" />
+      <path d="M 40 45 C 30 32, 12 18, -2 15 C 10 28, 25 38, 38 52" stroke="#00FFA3" stroke-width="2" />
+      <path d="M 38 52 C 28 42, 10 32, -4 32 C 8 42, 22 50, 36 60" stroke="#00D4FF" stroke-width="1.8" />
+      <path d="M 36 60 C 25 55, 12 50, 2 52 C 14 58, 24 64, 38 68" stroke="#00D4FF" stroke-width="1.6" />
+
+      <!-- Pegasus Muscular Torso, Arch & Neck -->
+      <path d="M 38 68 C 45 68, 55 62, 62 50 C 68 40, 72 28, 75 18 C 76 14, 78 12, 82 14 C 85 16, 84 20, 80 26 C 76 32, 74 38, 72 45" />
+      
+      <!-- Head & Crest -->
+      <path d="M 82 14 C 84 10, 88 8, 92 12 C 90 16, 86 18, 80 20" stroke="#00FFA3" stroke-width="2.2" />
+      <path d="M 85 11 L 88 6" stroke="#00D4FF" stroke-width="1.5" /> <!-- Ear/Horn node -->
+      <circle cx="85" cy="14" r="1" fill="#00FFA3" /> <!-- Cyber eye -->
+
+      <!-- Forelegs (Galloping/Leaping Stance) -->
+      <path d="M 62 50 C 65 58, 72 65, 78 68 C 84 70, 90 68, 92 62" />
+      <path d="M 78 68 L 84 78 L 94 76" stroke="#00D4FF" stroke-width="1.8" />
+      <path d="M 58 55 C 62 65, 68 76, 75 82 L 82 80" stroke="#00FFA3" stroke-width="1.6" />
+
+      <!-- Back, Flank, Hindquarters & Hind Legs -->
+      <path d="M 38 68 C 30 70, 22 72, 16 78 C 10 85, 12 94, 8 100" />
+      <path d="M 16 78 C 20 86, 26 95, 28 104 L 35 106" stroke="#00D4FF" stroke-width="2" />
+      
+      <!-- Flowing Cyber Tail (Circuit Strands) -->
+      <path d="M 12 76 C 5 80, -2 88, -8 98" stroke="#00FFA3" stroke-width="2" />
+      <path d="M 10 79 C 2 86, -6 95, -12 108" stroke="#00D4FF" stroke-width="1.6" />
+      <path d="M 8 82 C 4 92, -2 102, -8 114" stroke="#00FFA3" stroke-width="1.2" />
+    </g>
+  </g>
+
+  <!-- ==================== VERTICAL HUD DIVIDER ==================== -->
+  <g transform="translate(390, 80)">
+    <line x1="0" y1="0" x2="0" y2="280" stroke="url(#neonGlowLine)" stroke-width="2" />
+    <circle cx="0" cy="0" r="3" fill="#00FFA3" filter="url(#neonGlow)" />
+    <circle cx="0" cy="140" r="4" fill="#00D4FF" filter="url(#neonGlow)" />
+    <circle cx="0" cy="280" r="3" fill="#00FFA3" filter="url(#neonGlow)" />
+  </g>
+
+  <!-- ==================== RIGHT: WORDMARK & BRAND CONTENT ==================== -->
+  <g transform="translate(440, 0)">
+    <!-- Top System Category Badge -->
+    <g transform="translate(0, 85)">
+      <rect x="0" y="0" width="410" height="28" rx="14" fill="#0B1F1C" stroke="#00FFA3" stroke-width="1" stroke-opacity="0.6" />
+      <circle cx="16" cy="14" r="4" fill="#00FFA3" filter="url(#neonGlow)" />
+      <text x="32" y="19" class="montserrat-tag" font-size="11" font-weight="700" fill="#00FFA3">
+        AUTONOMOUS INTELLIGENCE &amp; AUTOMATION
+      </text>
     </g>
 
-    <!-- Pill 4 -->
-    <g transform="translate(360, 0)">
-      <rect x="-95" y="-18" width="190" height="36" rx="18" fill="#0B132B" stroke="#1E293B" stroke-width="1" />
-      <circle cx="-72" cy="0" r="4" fill="#10B981" />
-      <text x="-58" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#E2E8F0">Global Talent Cloud</text>
+    <!-- Main Wordmark Title (ORBITRON) -->
+    <text x="0" y="180" class="orbitron-title" font-size="64" fill="url(#chromeWordmark)" filter="url(#strongGlow)">
+      AIRBORNE
+    </text>
+
+    <!-- Sub Wordmark: PVT. LTD. with Cyber Bracket Line -->
+    <g transform="translate(4, 215)">
+      <line x1="0" y1="0" x2="60" y2="0" stroke="#00FFA3" stroke-width="2" />
+      <text x="75" y="6" class="orbitron-sub" font-size="18" fill="#E6F7F4" letter-spacing="8">
+        PVT. LTD.
+      </text>
+      <line x1="280" y1="0" x2="380" y2="0" stroke="#00D4FF" stroke-width="2" />
+    </g>
+
+    <!-- Core Tagline: INTELLIGENCE. AUTOMATION. ELEVATED. -->
+    <g transform="translate(2, 270)">
+      <text x="0" y="0" class="orbitron-sub" font-size="16" font-weight="700" fill="#00FFA3" letter-spacing="4">
+        INTELLIGENCE. <tspan fill="#00D4FF">AUTOMATION.</tspan> <tspan fill="#E6F7F4">ELEVATED.</tspan>
+      </text>
+      <text x="0" y="24" class="montserrat-text" font-size="13.5" fill="#9FB5B0">
+        Inspired by the precision of technology and the freedom of flight.
+      </text>
+    </g>
+
+    <!-- Feature Pillars Badges -->
+    <g transform="translate(0, 335)">
+      <!-- Badge 1 -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="170" height="34" rx="8" fill="#0F1416" stroke="#00FFA3" stroke-width="1" stroke-opacity="0.4" />
+        <circle cx="16" cy="17" r="3.5" fill="#00FFA3" />
+        <text x="28" y="22" class="montserrat-tag" font-size="10.5" font-weight="700" fill="#E6F7F4">AI Core Engine</text>
+      </g>
+
+      <!-- Badge 2 -->
+      <g transform="translate(182, 0)">
+        <rect x="0" y="0" width="190" height="34" rx="8" fill="#0F1416" stroke="#00D4FF" stroke-width="1" stroke-opacity="0.4" />
+        <circle cx="16" cy="17" r="3.5" fill="#00D4FF" />
+        <text x="28" y="22" class="montserrat-tag" font-size="10.5" font-weight="700" fill="#E6F7F4">Autonomous Cloud</text>
+      </g>
+
+      <!-- Badge 3 -->
+      <g transform="translate(384, 0)">
+        <rect x="0" y="0" width="180" height="34" rx="8" fill="#0F1416" stroke="#00FFA3" stroke-width="1" stroke-opacity="0.4" />
+        <circle cx="16" cy="17" r="3.5" fill="#00FFA3" />
+        <text x="28" y="22" class="montserrat-tag" font-size="10.5" font-weight="700" fill="#E6F7F4">Enterprise HRMS</text>
+      </g>
+
+      <!-- Badge 4 -->
+      <g transform="translate(576, 0)">
+        <rect x="0" y="0" width="185" height="34" rx="8" fill="#0F1416" stroke="#00D4FF" stroke-width="1" stroke-opacity="0.4" />
+        <circle cx="16" cy="17" r="3.5" fill="#00D4FF" />
+        <text x="28" y="22" class="montserrat-tag" font-size="10.5" font-weight="700" fill="#E6F7F4">Neural Telemetry</text>
+      </g>
     </g>
   </g>
 </svg>

@@ -1,4 +1,4 @@
-# Contributor Covenant Code of Conduct — AirBorne HRS
+# Contributor Covenant Code of Conduct — AirBorne
 
 ## Our Pledge
 
@@ -14,4 +14,4 @@ Examples of behavior that contributes to a positive environment:
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to [community@airbornehrs.in](mailto:community@airbornehrs.in). All complaints will be reviewed and investigated promptly and fairly.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to [community@airborne.in](mailto:community@airborne.in) or [hello@airborne.in](mailto:hello@airborne.in). All complaints will be reviewed and investigated promptly and fairly.
