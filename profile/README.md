@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AirBorne-HRS/.github/main/profile/assets/banner.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AirBorne-HRS/.github/main/profile/assets/banner.svg">
-  <img alt="AirBorne Brand Banner" src="https://raw.githubusercontent.com/AirBorne-HRS/.github/main/profile/assets/banner.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AirBorneAI/.github/main/profile/assets/banner.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AirBorneAI/.github/main/profile/assets/banner.svg">
+  <img alt="AirBorne Brand Banner" src="https://raw.githubusercontent.com/AirBorneAI/.github/main/profile/assets/banner.svg" width="100%" />
 </picture>
 
 <br />
@@ -92,7 +92,7 @@ At **AirBorne**, we pioneer high-precision autonomous systems, cloud-native ente
 
 ## 🛡️ 6-Level Enterprise Employee Access Architecture
 
-AirBorne-HRS implements a hardened **6-Tier Role & Attribute-Based Access Control (RBAC + ABAC)** model with contextual zero-trust verification:
+AirBorneAI implements a hardened **6-Tier Role & Attribute-Based Access Control (RBAC + ABAC)** model with contextual zero-trust verification:
 
 ```
 [ Level 6: Root SuperAdmin & SecOps ] ──▶ Cryptographic KMS, Zero-Trust IAM Governance, Hardware FIDO2 Quorum
@@ -113,7 +113,7 @@ AirBorne-HRS implements a hardened **6-Tier Role & Attribute-Based Access Contro
 
 | 1. Primary Logo | 2. Secondary Horizontal | 3. Pegasus Symbol | 4. Wordmark |
 | :---: | :---: | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/AirBorne-HRS/.github/main/profile/assets/primary_logo.png" width="160" alt="Primary Logo" /> | <img src="https://raw.githubusercontent.com/AirBorne-HRS/.github/main/profile/assets/horizontal_logo.png" width="220" alt="Horizontal Logo" /> | <img src="https://raw.githubusercontent.com/AirBorne-HRS/.github/main/profile/assets/emblem_circle.png" width="120" alt="Pegasus Symbol" /> | <img src="https://raw.githubusercontent.com/AirBorne-HRS/.github/main/profile/assets/wordmark.png" width="160" alt="Wordmark" /> |
+| <img src="https://raw.githubusercontent.com/AirBorneAI/.github/main/profile/assets/primary_logo.png" width="160" alt="Primary Logo" /> | <img src="https://raw.githubusercontent.com/AirBorneAI/.github/main/profile/assets/horizontal_logo.png" width="220" alt="Horizontal Logo" /> | <img src="https://raw.githubusercontent.com/AirBorneAI/.github/main/profile/assets/emblem_circle.png" width="120" alt="Pegasus Symbol" /> | <img src="https://raw.githubusercontent.com/AirBorneAI/.github/main/profile/assets/wordmark.png" width="160" alt="Wordmark" /> |
 
 <br />
 
@@ -138,13 +138,13 @@ AirBorne-HRS implements a hardened **6-Tier Role & Attribute-Based Access Contro
 <table>
   <tr>
     <td width="100%" valign="top">
-      <h3>🧠 <a href="https://github.com/AirBorne-HRS/Airborne-Antara">AirBorne-HRS/Airborne-Antara</a></h3>
+      <h3>🧠 <a href="https://github.com/AirBorneAI/Airborne-Antara">AirBorneAI/Airborne-Antara</a></h3>
       <p><b>Adaptive Neural Thinking Architecture for Recursive Autonomy (ANTARA V8.1 // "Sentient" Edition)</b></p>
       <p>A production-grade adaptive meta-learning framework enabling continuous self-improvement and non-destructive cognitive manifolds over standard PyTorch deep learning models.</p>
       <p>
-        <a href="https://github.com/AirBorne-HRS/Airborne-Antara"><img src="https://img.shields.io/badge/ARCH-COG_WRAPPER-000000.svg?style=flat-square&logo=pytorch" alt="Arch" /></a>
-        <a href="https://github.com/AirBorne-HRS/Airborne-Antara"><img src="https://img.shields.io/badge/SYSTEM-SENTIENT_META_LEARNING-00FFA3.svg?style=flat-square&logoColor=080E10" alt="System" /></a>
-        <a href="https://github.com/AirBorne-HRS/Airborne-Antara"><img src="https://img.shields.io/badge/STATUS-PRODUCTION_READY-00D4FF.svg?style=flat-square&logoColor=080E10" alt="Status" /></a>
+        <a href="https://github.com/AirBorneAI/Airborne-Antara"><img src="https://img.shields.io/badge/ARCH-COG_WRAPPER-000000.svg?style=flat-square&logo=pytorch" alt="Arch" /></a>
+        <a href="https://github.com/AirBorneAI/Airborne-Antara"><img src="https://img.shields.io/badge/SYSTEM-SENTIENT_META_LEARNING-00FFA3.svg?style=flat-square&logoColor=080E10" alt="System" /></a>
+        <a href="https://github.com/AirBorneAI/Airborne-Antara"><img src="https://img.shields.io/badge/STATUS-PRODUCTION_READY-00D4FF.svg?style=flat-square&logoColor=080E10" alt="Status" /></a>
       </p>
     </td>
   </tr>

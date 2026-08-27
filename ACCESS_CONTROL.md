@@ -1,6 +1,6 @@
-# 🛡️ AirBorne-HRS 6-Level Enterprise Access Control Architecture
+# 🛡️ AirBorneAI 6-Level Enterprise Access Control Architecture
 
-An enterprise-grade, zero-trust Role & Attribute-Based Access Control (**RBAC + ABAC**) architecture engineered for **AirBorne-HRS**.
+An enterprise-grade, zero-trust Role & Attribute-Based Access Control (**RBAC + ABAC**) architecture engineered for **AirBorneAI**.
 
 ---
 
