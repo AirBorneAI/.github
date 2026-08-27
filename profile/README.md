@@ -11,7 +11,7 @@
 # ⚡ AIRBORNE
 ### Autonomous Intelligence • Continual Learning • Enterprise Neural Systems
 
-[![Website](https://img.shields.io/badge/Official_Website-airborne.in-00FFA3?style=for-the-badge&logo=google-chrome&logoColor=080E10)](https://airborne.in)
+[![Website](https://img.shields.io/badge/Official_Website-airbornehrs.in-00FFA3?style=for-the-badge&logo=google-chrome&logoColor=080E10)](https://airbornehrs.in)
 [![Organization](https://img.shields.io/badge/GitHub-AirBorneAI-00D4FF?style=for-the-badge&logo=github&logoColor=080E10)](https://github.com/AirBorneAI)
 [![Security Policy](https://img.shields.io/badge/Security-Enterprise_Grade-0B1F1C?style=for-the-badge&logo=auth0&logoColor=00FFA3)](./SECURITY.md)
 [![Research DOI](https://img.shields.io/badge/Research-10.5281%2Fzenodo.17839490-E6F7F4?style=for-the-badge&logo=zenodo&logoColor=080E10)](https://doi.org/10.5281/zenodo.17839490)
@@ -145,9 +145,9 @@ All repositories under the **AirBorne** organization enforce uncompromising qual
 
 <div align="center">
 
-| 🌐 Official Website | 📨 Research & Inquiries | 🤝 Careers & Engineering |
+| 🌐 Official Website | 📨 Research & Engineering Inquiries | 🤝 Leadership Contact |
 | :---: | :---: | :---: |
-| [**airborne.in**](https://airborne.in) | [**friday@airbornehrs.in**](mailto:friday@airbornehrs.in) | [**talent@airbornehrs.in**](mailto:talent@airbornehrs.in) |
+| [**airbornehrs.in**](https://airbornehrs.in) | [**suryaansh@airbornehrs.in**](mailto:suryaansh@airbornehrs.in) | [**suryaansh@airbornehrs.in**](mailto:suryaansh@airbornehrs.in) |
 
 <br />
 

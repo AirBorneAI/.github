@@ -138,7 +138,7 @@ Before opening your PR, verify:
 If you have architectural questions, need guidance, or wish to discuss large RFCs:
 
 - Open a **[GitHub Discussion](https://github.com/AirBorneAI/.github/discussions)**
-- Email our engineering leads at **[talent@airbornehrs.in](mailto:talent@airbornehrs.in)**
+- Email our engineering leads at **[suryaansh@airbornehrs.in](mailto:suryaansh@airbornehrs.in)**
 
 ---
 

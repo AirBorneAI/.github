@@ -3,7 +3,7 @@
 **Classification:** Public Enterprise Standard  
 **Effective Date:** 2026  
 **Security Governance:** AirBorne Product Security Incident Response Team (AirBorne PSIRT)  
-**Primary Security Contact:** [talent@airbornehrs.in](mailto:talent@airbornehrs.in)
+**Primary Security Contact:** [suryaansh@airbornehrs.in](mailto:suryaansh@airbornehrs.in)
 
 ---
 
@@ -39,7 +39,7 @@ If you discover a potential vulnerability, bug, data leakage vector, or architec
 > [!CAUTION]
 > **DO NOT** open public GitHub issues, discussions, pull requests, or tweet about potential security findings before responsible coordination is complete.
 
-1. **Email Contact:** Send your confidential report directly to **[talent@airbornehrs.in](mailto:talent@airbornehrs.in)**.
+1. **Email Contact:** Send your confidential report directly to **[suryaansh@airbornehrs.in](mailto:suryaansh@airbornehrs.in)**.
 2. **Subject Convention:** `[SECURITY-DISCLOSURE] <Severity: Low/Med/High/Critical> - <Brief Component Description>`
 3. **Mandatory Report Contents:**
    - **Target Component:** Repository name, branch/commit SHA, API endpoint, or Docker image tag.
@@ -122,5 +122,5 @@ All software produced by the AirBorne organization must pass rigorous automated 
 ```
 AIRBORNE PVT. LTD. • PRODUCT SECURITY INCIDENT RESPONSE
 CONFIDENTIALITY & TRUST GUARANTEED
-For questions: talent@airbornehrs.in
+For questions: suryaansh@airbornehrs.in
 ```
