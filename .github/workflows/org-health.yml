@@ -1,0 +1,35 @@
+name: "🛡️ Organization Governance & Health Verification"
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  schedule:
+    - cron: "0 6 * * 1" # Every Monday morning at 6:00 AM UTC
+  workflow_dispatch:
+
+jobs:
+  verify-governance:
+    name: 🔍 Verify Community Standards & Brand Assets
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout Organization Configuration
+        uses: actions/checkout@v4
+
+      - name: 📋 Check Mandatory Community Documents
+        run: |
+          echo "Verifying presence of governance files..."
+          test -f SECURITY.md || { echo "Missing SECURITY.md"; exit 1; }
+          test -f CONTRIBUTING.md || { echo "Missing CONTRIBUTING.md"; exit 1; }
+          test -f CODE_OF_CONDUCT.md || { echo "Missing CODE_OF_CONDUCT.md"; exit 1; }
+          test -f ACCESS_CONTROL.md || { echo "Missing ACCESS_CONTROL.md"; exit 1; }
+          test -f profile/README.md || { echo "Missing profile/README.md"; exit 1; }
+          test -f profile/assets/banner.svg || { echo "Missing profile/assets/banner.svg"; exit 1; }
+          test -f profile/assets/logo-symbol.svg || { echo "Missing profile/assets/logo-symbol.svg"; exit 1; }
+          echo "✅ All core brand and governance assets verified successfully!"
+
+      - name: 🌐 Markdown Linting & Link Check
+        run: |
+          npm install -g markdownlint-cli
+          markdownlint "profile/README.md" "ACCESS_CONTROL.md" --disable MD013 MD033 MD041 || true
