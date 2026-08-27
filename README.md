@@ -13,7 +13,7 @@
 
 [![Website](https://img.shields.io/badge/Official_Website-airbornehrs.in-00FFA3?style=for-the-badge&logo=google-chrome&logoColor=080E10)](https://airbornehrs.in)
 [![Organization](https://img.shields.io/badge/GitHub-AirBorneAI-00D4FF?style=for-the-badge&logo=github&logoColor=080E10)](https://github.com/AirBorneAI)
-[![Security Policy](https://img.shields.io/badge/Security-Enterprise_Grade-0B1F1C?style=for-the-badge&logo=auth0&logoColor=00FFA3)](./SECURITY.md)
+[![Security Policy](https://img.shields.io/badge/Security-Enterprise_Grade-0B1F1C?style=for-the-badge&logo=auth0&logoColor=00FFA3)](https://github.com/AirBorneAI/.github/blob/main/SECURITY.md)
 [![Research DOI](https://img.shields.io/badge/Research-10.5281%2Fzenodo.17839490-E6F7F4?style=for-the-badge&logo=zenodo&logoColor=080E10)](https://doi.org/10.5281/zenodo.17839490)
 
 <br/>
@@ -134,10 +134,12 @@ All repositories under the **AirBorne** organization enforce uncompromising qual
 2. **Branch Protection & Peer Review:** Direct commits to `main` are restricted. All changes require code owner review and passing CI gates.
 3. **Transparent Security Policy:** Continuous CodeQL scanning, automated dependency vulnerability alerts, and clear incident disclosure protocols.
 
-- 🛡️ **[Security Policy](./SECURITY.md)**
-- 🤝 **[Contributing Guidelines](./CONTRIBUTING.md)**
-- 📜 **[Code of Conduct](./CODE_OF_CONDUCT.md)**
-- 🏛️ **[Organization Governance](./GOVERNANCE.md)**
+- 🛡️ **[Security Policy](https://github.com/AirBorneAI/.github/blob/main/SECURITY.md)**
+- 🤝 **[Contributing Guidelines](https://github.com/AirBorneAI/.github/blob/main/CONTRIBUTING.md)**
+- 📜 **[Code of Conduct](https://github.com/AirBorneAI/.github/blob/main/CODE_OF_CONDUCT.md)**
+- 🏛️ **[Organization Governance](https://github.com/AirBorneAI/.github/blob/main/GOVERNANCE.md)**
+- 🔒 **[Data Privacy Standard](https://github.com/AirBorneAI/.github/blob/main/PRIVACY.md)**
+- 🔑 **[Access Control Architecture](https://github.com/AirBorneAI/.github/blob/main/ACCESS_CONTROL.md)**
 
 ---
 
