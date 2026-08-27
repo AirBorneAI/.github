@@ -94,6 +94,12 @@ At **AirBorne**, we pioneer high-precision autonomous systems, cloud-native ente
 
 <div align="center">
 
+| 1. Primary Logo | 2. Secondary Horizontal | 3. Pegasus Symbol | 4. Wordmark |
+| :---: | :---: | :---: | :---: |
+| <img src="https://raw.githubusercontent.com/AirBorne-HRS/.github/main/profile/assets/primary_logo.png" width="160" alt="Primary Logo" /> | <img src="https://raw.githubusercontent.com/AirBorne-HRS/.github/main/profile/assets/horizontal_logo.png" width="220" alt="Horizontal Logo" /> | <img src="https://raw.githubusercontent.com/AirBorne-HRS/.github/main/profile/assets/emblem_circle.png" width="120" alt="Pegasus Symbol" /> | <img src="https://raw.githubusercontent.com/AirBorne-HRS/.github/main/profile/assets/wordmark.png" width="160" alt="Wordmark" /> |
+
+<br />
+
 | Color Name | Hex Code | Visual Sample | Application |
 | :--- | :---: | :---: | :--- |
 | **Neon Green** | `#00FFA3` | `██████████` | Primary Accent &bull; Active Glows &bull; Mascot Circuit Nodes |
