@@ -152,9 +152,9 @@ All repositories under the **AirBorne** organization uphold uncompromising engin
 
 <div align="center">
 
-| 🌐 Official Website | 📨 General &amp; Enterprise Inquiries | 🤝 Careers &amp; Talent |
+| 🌐 Official Website | 📨 Inquiries &amp; Contact | 🤝 Careers &amp; Talent |
 | :---: | :---: | :---: |
-| [**airborne.in**](https://airborne.in) | [**hello@airborne.in**](mailto:hello@airborne.in) | [**talent@airbornehrs.in**](mailto:talent@airbornehrs.in) |
+| [**airborne.in**](https://airborne.in) | [**talent@airbornehrs.in**](mailto:talent@airbornehrs.in) | [**talent@airbornehrs.in**](mailto:talent@airbornehrs.in) |
 
 <br />
 

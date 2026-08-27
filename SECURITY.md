@@ -14,7 +14,7 @@ AirBorne takes the security and integrity of our autonomous software systems, al
 
 If you discover a potential security vulnerability within any AirBorne software, repository, or service, please report it immediately:
 
-1. **Email**: Send vulnerability reports to [security@airborne.in](mailto:security@airborne.in) or [hello@airborne.in](mailto:hello@airborne.in).
+1. **Email**: Send vulnerability reports to [talent@airbornehrs.in](mailto:talent@airbornehrs.in).
 2. **Details to Include**:
    - Description of the vulnerability and attack vector
    - Reproduction steps or proof-of-concept code
